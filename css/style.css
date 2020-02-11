@@ -1,6 +1,7 @@
 body {
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -8,11 +9,17 @@ body {
 h1 {
     background-color: rgb(158 194 133);
     color: white;
-    font-size: 30px;
+    font-size: 18px;
+    height: 30px;
+    width: 350px;
+    text-align: center;
+    line-height: 30px;
 }
 
 #input {
     border: 2px solid rgb(158 194 133);
+    height: 25px;
+    font-size: 20px;
 }
 
 #add {
@@ -21,6 +28,22 @@ h1 {
     font-weight: bold;
 }
 
-li {
-    color: coral;
+table {
+    color: rgb(244 177 94);
+    font-size: 25px;
+    padding: 8px;
+    width: 350px;
+}
+
+tbody {
+    color: rgb(244 177 94);
+    text-align: left;
+    line-height: 30px;
+    width: 370px;
+}
+
+#remove {
+    background-color: rgb(210 109 106);	
+    color: white;
+
 }
